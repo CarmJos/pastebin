@@ -20,7 +20,7 @@ jobs:
     needs: pre-build-checks
     strategy:
       matrix: 
-        arch: [amd64, arm64]
+        arch: [amd64]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout project
