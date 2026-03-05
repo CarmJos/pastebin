@@ -1,4 +1,4 @@
-#![allow(dead_code, unused_imports)]:
+#![allow(dead_code, unused_imports)]
 #[macro_use]
 extern crate rocket;
 use std::{fs, net::IpAddr, path::PathBuf};
