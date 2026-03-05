@@ -15,7 +15,7 @@ pub async fn index() -> ResponseWrapper<Template> {
         false => "",
     };
 
-    map.insert("title", "bin");
+    map.insert("title", "Pastebin | CARM.CC");
     map.insert("client_desc", client_desc);
 
     ResponseWrapper::meta_response(Template::render("index.html", &map))

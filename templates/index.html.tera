@@ -10,10 +10,13 @@
             </div>
             <textarea name="content" id="textarea_content" style="resize: none" placeholder="
 
-bin(3)                                BIN                               bin(3)
+pastebin                         CARM.CC                        pastebin
 
-NAME
-       bin - A highly opinionated and minimalistic Pastebin
+USAGE
+       Drag a file and drop it here, or
+       Paste an image from your clipboard using Ctrl + v, or
+       After typing, press the big yellow button to paste, or
+       Just press Ctrl + Enter once done typing.
 
 ROUTES
        GET /<id>
@@ -23,21 +26,8 @@ ROUTES
        GET /p/<id>.<ext> 
            Get syntax highlighted pastes. 
 
-WEB USAGE
-       Drag a file and drop it here, or
-       Paste an image from your clipboard using Ctrl + v, or
-       After typing, press the big yellow button to paste, or
-       Just press Ctrl + Enter once done typing.
+SEE ALSO  https://www.carm.cc
 
-MOBILE USAGE
-       All of the above, or
-       Use the upload button.
-{% if client_desc %}
-CLI USAGE
-       Client available at /client
-{% endif %}
-SEE ALSO
-       github.com/wantguns/bin
 " autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
         </div>
         <div class="selectBox">
