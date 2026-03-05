@@ -41,7 +41,7 @@ jobs:
           build_for_arch ${{ matrix.arch }} $__REF
 
       - name: Export artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v5
         with:
           name: build-artifacts
           path: artifacts
