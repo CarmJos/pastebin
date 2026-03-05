@@ -26,7 +26,7 @@ ROUTES
        GET /p/<id>.<ext> 
            Get syntax highlighted pastes. 
 
-SEE ALSO  https://www.carm.cc
+SEE ALSO  -> https://www.carm.cc
 
 " autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
         </div>
@@ -195,7 +195,7 @@ SEE ALSO  https://www.carm.cc
             </select>
         </div>
         <div class="submitButtonBox">
-            <button type="submit" title="Paste">Paste</button>
+            <button type="submit" title="Paste">PASTE</button>
         </div>
     </div>
     <div id="upload_card">

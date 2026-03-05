@@ -15,7 +15,7 @@ body {
 }
 
 form.highlight {
-    border: 1vh dashed #F29718;
+    border: 1vh dashed #8b658b;
 }
 
 .grid_form {
@@ -107,7 +107,7 @@ option:hover {
 }
 
 button[type="submit"] {
-    background-color: #F29718;
+    background-color: #8b658b;
     color: #0f1419;
     border: none;
     height: 100%;
@@ -119,7 +119,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #be7611;
+    background-color: #7b5a7b;
 }
 
 #upload_card {
