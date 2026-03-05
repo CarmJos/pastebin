@@ -10,7 +10,7 @@ span {
 .topRightBox {
   position: fixed;
   padding: 18px 10px;
-  color: #f29718;
+  color: #8b658b;
   background-color: #0f1419;
   top: 0px;
   right: 0px;
@@ -35,7 +35,7 @@ span {
 }
 
 .topRightBox button:hover {
-  color: #be7611;
+  color: #654965;
 }
 
 .rootBox {
