@@ -14,6 +14,9 @@ jobs:
 
       - name: Clippy
         run: cargo clippy -- -Dwarnings
+
+      - name: Display
+        run: cat templates/index.html.tera
       
       
   build:
