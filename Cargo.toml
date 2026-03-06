@@ -1,5 +1,5 @@
 [package]
-name = "pastebin"
+name = "bin"
 version = "2.3.0"
 authors = ["Gunwant Jain <mail@wantguns.dev>","CarmJos <carm@carm.cc>"]
 edition = "2021"
