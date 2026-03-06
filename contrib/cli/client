@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Change the url accordingly
-URL="https://basedbin.fly.dev"
+URL="https://paste.carm.cc/"
 
 FILEPATH="$1"
 FILENAME=$(basename -- "$FILEPATH")
